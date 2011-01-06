@@ -1,0 +1,35 @@
+<% content_for :body_content_title do %>
+  <%= @property.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  
+  <div>
+    <h3>Title</h3>
+    <%=raw @property.title %>
+  </div>
+  
+  <div>
+    <h3>Description</h3>
+    <%=raw @property.description %>
+  </div>
+  
+  <div>
+    <h3>Photo</h3>
+    <%= image_fu @property.photo, nil %>
+  </div>
+  
+<% end %>
+
+<% content_for :body_content_right do %>
+  <h2><%= t('.other') %></h2>
+  <ul id="properties">
+    <% @properties.each do |property| %>
+      <li>
+        <%= link_to property.title, property_url(property) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

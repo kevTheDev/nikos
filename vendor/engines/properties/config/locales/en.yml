@@ -1,0 +1,23 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    properties:
+      title: Properties
+  admin:
+    properties:
+      index:
+        create_new: Create a new Property
+        reorder: Reorder Properties
+        reorder_done: Done Reordering Properties
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Properties yet. Click "Create a new Property" to add your first property.
+      property:
+        view_live: View this property live <br/><em>(opens in a new window)</em>
+        edit: Edit this property
+        delete: Remove this property forever
+  properties:
+    show:
+      other: Other Properties

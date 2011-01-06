@@ -1,0 +1,19 @@
+nl:
+  plugins:
+    properties:
+      title: Properties
+  admin:
+    properties:
+      index:
+        create_new: Maak een nieuwe Property
+        reorder: Wijzig de volgorde van de Properties
+        reorder_done: Klaar met het wijzingen van de volgorde van de Properties
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Properties. Druk op 'Maak een nieuwe Property' om de eerste aan te maken.
+      property:
+        view_live: Bekijk deze property op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze property
+        delete: Verwijder deze property voor eeuwig
+  properties:
+    show:
+      other: Andere Properties

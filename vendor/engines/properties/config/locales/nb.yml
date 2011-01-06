@@ -1,0 +1,19 @@
+nb:
+  plugins:
+    properties:
+      title: Properties
+  admin:
+    properties:
+      index:
+        create_new: Lag en ny Property
+        reorder: Endre rekkefølgen på Properties
+        reorder_done: Ferdig å endre rekkefølgen Properties
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Properties enda. Klikk på "Lag en ny Property" for å legge til din første property.
+      property:
+        view_live: Vis hvordan denne property ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne property
+        delete: Fjern denne property permanent
+  properties:
+    show:
+      other: Andre Properties
